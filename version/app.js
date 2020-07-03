@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version back to version 1 of the app.' + '\n';
+    response = 'Finally this is version 2 of the app.' + '\n';
 
     //send the response to the client
     res.send(response);
