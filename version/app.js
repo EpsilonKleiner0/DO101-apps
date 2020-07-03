@@ -3,7 +3,7 @@ app = express();
 
 var response;
 
-app.get('/', function (req, res) {oc 
+app.get('/', function (req, res) {
 
     response = 'This is version back to version 1 of the app.' + '\n';
 
